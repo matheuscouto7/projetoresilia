@@ -76,22 +76,25 @@ body {
     }
 
 .dog img {
-  width: 23.75vw;
-  height: 23.75vw;
+  width: 20.75vw;
+  height: 20.75vw;
   object-fit: cover;
+
 }
 
 
 .dog {
       display: flex;
-      flex-flow: row wrap;
-      max-width: 75vw;
+      flex-flow: row;
+      max-width: 65vw;
+      
   }
-  
+ <p>
+ <p> 
 .imagens {
-justify-content: center;
+justify-content: left;
 align-items: center;
-margin: 5px;
+margin: 10px;
 }
  @media (max-width: 800px) {
   .adote {
@@ -119,6 +122,27 @@ flex-direction: column;
 
 }
 
-.item1 {
-color: black;
+.footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+html, body {
+  min-height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+      
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(246, 246, 250);
+  color: #00539F;
+  width: 100%;
+  height: 60px;    
+  text-align: center;
+  line-height: 90px;
 }
